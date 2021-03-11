@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin VS Padding</title>
+    <style>
+        .container {
+            background-color: rgb(26, 165, 184);
+            border: 3px solid red;
+            /* padding: 18px 10px 20px 30px; */
+            padding: 40px;
+            /* margin: 10px; */
+            /* margin: 10px 20px 30px 5px; */
+            margin: 10px 20px;
+            /* top/bottom left/right */
+            /* top, right , bottom, left */
+            border-radius: 20px;
+            width: 200px;
+            box-sizing: border-box;
+            
+        }           
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Cricket</h3>
+        <p id="first">India won cricket world cup first time in 1983</p>
+    </div>
+    <div class="container">
+        <h3>Cricket</h3>
+        <p id="second">India won cricket world cup first time in 1983</p>
+    </div>
+    <div class="container">
+        <h3>Cricket</h3>
+        <p id="third">India won cricket world cup first time in 1983</p>
+    </div>
+</body>
+</html>
+
+
+/* box-sizing: border-box; */
+
+            /* content-box : 200px + 40px + 40px + 3px + 3px  = 286px
+            border-box  :   y   + 40px + 40px + 3px + 3px  = 200px
+                            y  = 114px */
+
+            /* border-box : total width = element width + padding + border
+            content-box : total width = element width  */
