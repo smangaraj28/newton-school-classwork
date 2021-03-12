@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        [target='_blank'] {
+            background-color: red;
+        }
+        [href="#"] {
+            background-color: blue;
+        }
+        [title="diagram"] {
+
+        }
+        [title~="diagram"] {
+            width: 400px;
+            border: 1px solid red;
+        }
+        [class|="top"] {
+            background-color: red;
+        }
+        [class$="bottom"] {
+            border: 2px solid blue;
+        }
+
+        img[title~="diagram"] {
+
+        }
+        [title~="diagram"] {
+
+        }
+    </style>
+</head>
+<body>
+    <a href="https://en.wikipedia.org/wiki/Virat_Kohli" target="_blank">Virat kohli</a>
+    <a href="#">MS DHONI</a>
+    <a href="#">dasdads</a>
+    <img src="/images/abc.png" alt="dsadsa" title="web diagram fdaf">
+    <div class="top-bottom">dfadsadas</div>
+</body>
+</html>
