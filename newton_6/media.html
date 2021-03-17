@@ -1,6 +1,46 @@
-@media is CSS2 : mediatype 
+<!-- @media is CSS2 : mediatype 
 
 @media is CSS3 : viewport size
                 height and width of screen 
                 orientation 
                 resolution
+
+
+@media not|only mediaType and (mediafeature and|or|not mediafeature) {
+    CSS-code;
+}
+
+mediaType : print / screen / speech / all
+mediaFeature: min-width , max-width  -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (min-width: 0px) {
+            h1 {
+                color: brown;
+            }
+        }
+        @media screen and (min-width: 400px) {
+            h1 {
+                color: blue;
+            }
+        }
+        @media screen and (min-width: 900px) {
+            h1 {
+                color: red;
+            }
+        }
+        @media print {
+            h1 {
+                color: skyblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Media query</h1>
+</body>
+</html>
