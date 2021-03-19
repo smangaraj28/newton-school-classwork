@@ -1,0 +1,225 @@
+Que: How do you create links to sections within the same page?
+
+Ans: Links can be created using the <a> tag, with referencing through the use of the number (#) symbol. For example, you can have one line as <a href=”#topmost”>BACK TO TOP</a>, which would result in the words “BACK TO TOP” appearing on the webpage and links to a bookmark named topmost. You then create a separate tag command like <a name=”topmost”> somewhere on the top of the same webpage so that the user will be linked to that spot when he clicked on “BACK TO TOP”.
+
+Que: Do all HTML tags come in a pair?
+
+Ans: No, there are single HTML tags that do not need a closing tag. Examples are the <img> tag and <br> tags.
+
+Que:  How do you insert a comment in HTML?
+
+Ans: Comments in HTML begins with “<!–-“nd ends with “-–>”. For example: <!-  Comments ->
+
+Que: What is an image map?
+
+Ans: Image map lets you link to many different web pages using a single image. You can define shapes in images that you want to make part of an image mapping.
+
+Que: What is the advantage of collapsing white space?
+
+Ans: White spaces are a blank sequence of space characters, which is treated as a single space character in HTML. Because the browser collapses multiple spaces into a single space, you can indent lines of text without worrying about multiple spaces. This enables you to organize the HTML code into a much more readable format.
+
+Que: Is there any way to keep list elements straight in an HTML file?
+
+Ans: display: inline in style
+
+Que: Difference between inline and block elements and which tags comes into which category ?
+
+Ans: 
+
+Que: Does a hyperlink apply to text only?
+
+Ans: No, hyperlinks can be used in the text as well as images. That means you can convert an image into a link that will allow users to link to another page when clicked. Surround the image within the <a href=” “>…</a> tag combinations. 
+
+Que: How do you change the number type in the middle of a list?
+
+Ans: The <li> tag includes two attributes – type and value. The type attribute can be used to change the numbering type for any list item. The value attribute can change the number index.
+
+
+Que: How do you create multicolored text in a webpage?
+
+Ans: To create text with different colors, use the <font color=”color”>…</font> tags for every character that you want to apply color. You can use this tag combination as many times as needed, surrounding a single character or an entire word.
+
+Que: Write an HTML table tag sequence that outputs the following:
+50 pcs 100 500
+10 pcs 5 50
+
+Ans:
+<table> 
+<tr> 
+<td>50 pcs</td> 
+<td>100</td> 
+<td>500</td> 
+</tr> 
+<tr> 
+<td>10 pcs</td> 
+<td>5</td> 
+<td>50</td> 
+</tr> 
+</table>
+
+Que: What are applets?
+
+Ans: Applets are small programs that can be embedded within web pages to perform some specific functionality, such as computations, animations, and information processing. Applets are written using the Java language. Example: Windows Media Player , Browser game is a video game in 1995, Quick Time Player
+
+Que: What other ways can be used to align images and wrap text?
+
+Ans: Tables can be used to position text and images. and use float example as well.
+
+<table width="500px" >
+  <tbody>
+  <tr>
+    <td align="left" style="vertical-align:top;">
+      <p>
+        <b>Isn't she hot??</b>
+      </p>
+    </td>
+    <td align="right">	
+      <img width="150" height="150" src="http://pixel.nymag.com/imgs/daily/vulture/2015/11/25/25-jennifer-lawrence-directs.w529.h529.jpg" alt="" border="0"/>  
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+Que: Can a single text link point to two different web pages?
+
+Ans : No. The <a> tag can accept only a single href attribute, and it can point to only a single web page.
+
+Que: Can you change the color of bullets?
+
+Ans: The bullet color is always the same as that of the first character in the list item. If you surround the <li> and the first character with a set of <font> tags with the color attribute set, the bullet color, and the first character will be a different color from the text.
+
+Que: What are the limits of the text field size?
+
+Ans: The default size for a text field is around 13 characters. However, if you include the size attribute, you can set the size value to be as low as 1. The maximum size value will be determined by the browser width. If the size attribute is set to 0, the size will be set to the default size of 13 characters.
+
+Que: What is a marquee?
+
+Ans: A marquee allows you to put a scrolling text in a web page. To do this, place whatever text you want to appear scrolling within the <marquee> and </marquee> tags.
+
+Que: Are <br> tags the only way to separate sections of text?
+
+Ans: No. The <br> tag is only one way to separate lines of text. Other tags, like the <p> tag and <blockquote> tag, also separate sections of text.
+
+Que: How do you make a picture into a background image of a web page?
+
+Ans: <body background = “image.gif”>
+
+Que: What happens if the list-style-type property is used on a non-list element like a paragraph?
+
+Ans: If the list-style-type property is used on a non-list element like a paragraph, the property will be ignored and do not affect the paragraph.
+
+Que: Tell me two benefits of HTML5 Web Storage ,Two main benefits of HTML5 Web Storage:
+
+Ans: It can store up to 10 MB data which is certainly more than what cookies have.
+Web storage data cannot be transferred with the HTTP request. It helps to increase the performance of the application.
+
+
+Que: What are two types of Web Storage in HTML5?
+
+Ans: Two storage types of HTML5 are:
+
+Session Storage:
+
+It stores data of current session only. It means that the data stored in session storage clear automatically when the browser is closed.
+
+Local Storage:
+
+Local storage is another type of HTML5 Web Storage. In local storage, data is not deleted automatically when the current browser window is closed.
+
+Que: What is the Application Cache in HTML5 and why it is used?
+
+Ans: The Application Cache concept means that a web application is cached. It can be accessible without the need for internet connection.
+
+Some advantages of Application Cache:
+
+Offline browsing – Web users can also use the application when they are offline.
+Speed – Cached resources load quicker
+Reduce the server load – The web browser will only download updated resources from the server.
+
+Que: Explain five new input types provided by HTML5 for forms?
+
+Ans: Following are the important, new data types offered by HTML5:
+
+Date: It allows the user to select a date.
+datetime-local: This input type allows the user to select a date and time without time zone.
+datetime: This input type allows the user to select a date and time with time zone.
+month: It enables the user to select a month and year
+email: These input fields used to contain an e-mail address.
+
+Que: What is the difference between a block-level element and an inline element?
+
+A block-level element is drawn as a block that stretches to fill the full width available to it i.e, the width of its container and will always start on a new line.
+Elements that are block-level by default: <div>, <img>, <section>, <form>, <nav>.	Inline elements are drawn where they are defined and only take up space that is absolutely needed. The easiest way to understand how they work is to look at how text flows on a page.
+Examples of elements that are inline by default: <span>, <b>, <strong>, <a>, <input>.
+
+What is semantic HTML?
+Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is used for italic. Instead of these we use <strong></strong> and <em></em> tags.
+
+How to create a nested webpage in HTML?
+The HTML iframe tag is used to display a nested webpage. In other words, it represents a webpage within a webpage. The HTML <iframe> tag defines an inline frame. For example:
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>HTML example</h2>
+Use the height and width attributes to specify the size of the iframe:
+<iframe src="<a href="https://www.edureka.co/">https://www.edureka.co/</a>" height="300" width="400"></iframe>
+</body>
+</html>
+
+What are the tags used to separate a section of texts?
+There are three tags that can be used to separate the texts:
+
+<br> tag – Usually <br> tag is used to separate the line of text. It breaks the current line and conveys the flow to the next line
+<p> tag – This contains the text in the form of a new paragraph.
+<blockquote> tag – It is used to define a large quoted section. If you have a large quotation, then put the entire text within <blockquote>……….</blockquote> tag.
+
+What is the difference between DIV and SPAN in HTML?
+The difference between span and div is that a span element is in-line and usually used for a small chunk of HTML inside a line,such as inside a paragraph. Whereas, a div or division element is block-line which is equivalent to having a line-break before and after it and used to group larger chunks of code.
+
+Example:
+
+<div id="HTML">
+This is <span class="Web Dev">interview</span>
+</div>
+
+How to create a new HTML element?
+You can create new elements for the document in the following way:
+
+<script>
+document.createElement﴾"myElement"﴿
+</script>
+
+It can be also be used in the HTML as:
+<myElement>hello edureka!</myElement>
+
+Que: Is the <!DOCTYPE html> tag considered as a HTML tag?
+No, the <!DOCTYPE html> declaration is not an HTML tag.
+<!DOCTYPE html> is used to instruct the web browser about the HTML page.
+
+hat is Cell Spacing and Cell Padding?
+Cell Spacing is referred to as the space or gap between the two cells of the same table. Whereas, Cell Padding is referred to as the gap or space between the content of the cell and cell wall or cell border.
+
+Example:
+
+<table border cellspacing=3>
+<table border cellpadding=3>
+<table border cellspacing=3 cellpadding=3>
+
+
+How many types of CSS can be included in HTML?
+There are three ways to include the CSS with HTML:
+
+Inline CSS: It is used for styling small contexts. To use inline styles add the style attribute in the relevant tag.
+External Style Sheet: This is used when the style is applied to many pages. Each page must link to the style sheet using the <link> tag. The <link> tag goes inside the head section.
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css" />
+</head>
+Internal Style Sheet: It is used when a single document has a unique style. Internal styles sheet needs to put in the head section of an HTML page, by using the <style> tag in the following way:
+<head>
+<style type="text/css">
+hr {color:sienna}
+p {margin-left:20px}
+body {background-image:url("images/back40.gif")}
+</style>
+</head>
